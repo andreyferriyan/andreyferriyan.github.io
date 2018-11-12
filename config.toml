@@ -1,0 +1,66 @@
+baseURL = "http://localhost"
+languageCode = "en-us"
+title = "Catatan Riset"
+theme = "mediumish-gohugo-theme"
+summaryLength = 25
+copyright = "Andrey Ferriyan - All rights reserved"
+enableEmoji = true
+publishDir = "docs"
+Paginate = 10
+
+[permalinks]
+  post = "/:year/:month/:title/"
+  
+#disqusShortname = "andreyferriyan"
+#googleAnalytics = "UA-1XXXXXXX1-1"
+
+#[params]
+  #logo = "/static/images/logo.png"
+#  description ="the clean blog!"
+  #mailchimp = "you can provide a mailchimp-link here"
+
+[params.author]
+  name = "Andrey Ferriyan"
+  thumbnail = "/images/author.png"
+  description = "Creator of this blog."
+
+#[params.index]
+#  picture = "/images/author.png"
+#  title = "CaRis"
+#  subtitle = "Catatan Riset"
+#  mdtext = '''
+#Currently trying to get this blog running, still don't know what the blog will be about!\
+#**This textblock is a demonstration of the mdtext-param.**\
+### This is a markdown heading
+#'''
+#  alertbar = false
+
+#[params.social]
+#  github = "andreyferriyan"
+#  linkedin = "andreyferriyan"
+  #xing = "<username>"
+#  medium = "andreyferriyan"
+#  twitter = "andreyferriyan"
+
+## Main Menu
+#[[menu.main]]
+#    name = "Blog"
+#    weight = 100
+#    identifier = "blog"
+#    url = "/blog"
+#[[menu.main]]
+#    name = "About Me"
+#    identifier = "about"
+#    weight = 200
+#    url = "/"
+#[[menu.main]]
+#    name = "Posts"
+#    identifier = "posts"
+#    weight = 100
+#    url = "/posts"
+#[[menu.main]]
+#    name = "Imprint"
+#    identifier = "imprint"
+#    weight = 200
+#    url = "/static/imprint"
+
