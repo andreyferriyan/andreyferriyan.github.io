@@ -1,4 +1,4 @@
-baseURL = "http://localhost"
+baseURL = "http://andreyferriyan.github.io"
 languageCode = "en-us"
 title = "Catatan Riset"
 theme = "mediumish-gohugo-theme"
