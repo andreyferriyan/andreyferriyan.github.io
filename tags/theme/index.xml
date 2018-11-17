@@ -6,10 +6,19 @@
     <description>Recent content in Theme on Catatan Riset</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 02 Oct 2015 21:49:20 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 17 Nov 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://andreyferriyan.github.io/tags/theme/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Sticker WA Badan Nasional Pembinaan Media Sosial</title>
+      <link>http://andreyferriyan.github.io/blog/2018/11/17/bnpms/</link>
+      <pubDate>Sat, 17 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://andreyferriyan.github.io/blog/2018/11/17/bnpms/</guid>
+      <description>Sticker WA Badan Nasional Pembinaan Media Sosial Berikut adalah link dari WhatsApp sticker untuk Badan Nasional Pembinaan Media Sosial. Stickers ini dipindah dari https://andreyferriyan.github.io/bnpms-wastickers-v1.apk dikarenakan pesan peringatan dari github agak memindahkan berkas binari apapun ke dalam bentuk releases. Untuk selanjutnya bisa cek link berikut untuk mendownload sticker BNPMS terbaru https://github.com/andreyferriyan</description>
+    </item>
     
     <item>
       <title>Linked post</title>
@@ -29,15 +38,6 @@ menu = &amp;quot;main&amp;quot;  Lorem ipsum dolor sit amet, consectetur adipisc
       <guid>http://andreyferriyan.github.io/blog/2015/06/24/creating-a-new-theme/</guid>
       <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
 We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
-    </item>
-    
-    <item>
-      <title>Sticker WA Badan Nasional Pembinaan Media Sosial</title>
-      <link>http://andreyferriyan.github.io/blog/1/01/01/bnpms/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://andreyferriyan.github.io/blog/1/01/01/bnpms/</guid>
-      <description>Sticker WA Badan Nasional Pembinaan Media Sosial Berikut adalah link dari WhatsApp sticker untuk Badan Nasional Pembinaan Media Sosial. Stickers ini dipindah dari https://andreyferriyan.github.io/bnpms-wastickers-v1.apk dikarenakan pesan peringatan dari github agak memindahkan berkas binari apapun ke dalam bentuk releases. Untuk selanjutnya bisa cek link berikut untuk mendownload sticker BNPMS terbaru https://github.com/andreyferriyan</description>
     </item>
     
   </channel>
