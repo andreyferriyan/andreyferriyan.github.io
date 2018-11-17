@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://andreyferriyan.github.io/blog/2018/11/17/bnpms/</loc>
+    <lastmod>2018-11-17T20:37:13+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://andreyferriyan.github.io/blog/2015/10/10/migrate-from-jekyll/</loc>
     <lastmod>2015-10-10T13:07:31+02:00</lastmod>
   </url>
@@ -28,19 +33,26 @@
   </url>
   
   <url>
+    <loc>http://andreyferriyan.github.io/categories/blog/</loc>
+    <lastmod>2018-11-17T20:37:13+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://andreyferriyan.github.io/blog/</loc>
-    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
+    <lastmod>2018-11-17T20:37:13+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://andreyferriyan.github.io/</loc>
-    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
+    <lastmod>2018-11-17T20:37:13+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://andreyferriyan.github.io/categories/</loc>
+    <lastmod>2018-11-17T20:37:13+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -115,6 +127,12 @@
   <url>
     <loc>http://andreyferriyan.github.io/tags/theme/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://andreyferriyan.github.io/tags/whatsapp/</loc>
+    <lastmod>2018-11-17T20:37:13+09:00</lastmod>
     <priority>0</priority>
   </url>
   
