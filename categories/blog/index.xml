@@ -6,10 +6,20 @@
     <description>Recent content in Blog on Catatan Riset</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Nov 2018 15:48:10 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 09 Dec 2018 17:12:20 +0900</lastBuildDate>
     
 	<atom:link href="http://andreyferriyan.github.io/categories/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Beralih dari Jupyter Classic ke Jupyter Lab</title>
+      <link>http://andreyferriyan.github.io/blog/2018/12/09/beralih-dari-jupyter-classic/</link>
+      <pubDate>Sun, 09 Dec 2018 17:12:20 +0900</pubDate>
+      
+      <guid>http://andreyferriyan.github.io/blog/2018/12/09/beralih-dari-jupyter-classic/</guid>
+      <description>Migrasi ke Jupyter yang baru Sebagaimana kita ketahui bersama Jupyter adalah salah satu IDE bagi para programmer Python. Bagi aktivis data scientist, Jupyter juga jadi salah satu andalan yang digunakan untuk memudahkan melakukan pemodelan machine learning tentu saja dengan berbahasa Python.
+Setahu saya, Jupyter termasuk language agnostic, artinya tidak cuma Python tapi bahasa pemrograman lain seperti Julia juga bisa digunakan. Kelebihan dari Jupyter yang membuat saya nyaman dalam menggunakannya adalah kita bisa menyimpan hasil pemodelan itu di memory.</description>
+    </item>
     
     <item>
       <title>Blog Dengan Hugo</title>
