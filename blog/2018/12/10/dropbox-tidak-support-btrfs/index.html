@@ -6,7 +6,7 @@
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Go</title>
+  <title>Dropbox Tidak Support Btrfs</title>
   <meta name="author" content="" />
 
   
@@ -56,9 +56,9 @@
   <link rel="alternate" href="http://andreyferriyan.github.io/index.xml" type="application/rss+xml" title="Catatan Riset">
 
   
-  <meta property="og:title" content="Go" />
+  <meta property="og:title" content="Dropbox Tidak Support Btrfs" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="/tags/go//" />
+  <meta property="og:url" content="/blog/2018/12/10/dropbox-tidak-support-btrfs//" />
   <meta property="og:image" content="/img/logo.png" />
 
 </head>
@@ -77,9 +77,9 @@
         <div class="container">
             <div class="navbar-header">
                 <a class="navbar-brand home" href="http://andreyferriyan.github.io">
-                    <img src="http://andreyferriyan.github.io/img/logo.png" alt="Go logo" class="hidden-xs hidden-sm">
-                    <img src="http://andreyferriyan.github.io/img/logo-small.png" alt="Go logo" class="visible-xs visible-sm">
-                    <span class="sr-only">Go - go to homepage</span>
+                    <img src="http://andreyferriyan.github.io/img/logo.png" alt="Dropbox Tidak Support Btrfs logo" class="hidden-xs hidden-sm">
+                    <img src="http://andreyferriyan.github.io/img/logo-small.png" alt="Dropbox Tidak Support Btrfs logo" class="visible-xs visible-sm">
+                    <span class="sr-only">Dropbox Tidak Support Btrfs - go to homepage</span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
@@ -140,7 +140,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>Go</h1>
+                <h1>Dropbox Tidak Support Btrfs</h1>
             </div>
         </div>
     </div>
@@ -149,58 +149,55 @@
 
         <div id="content">
             <div class="container">
+
                 <div class="row">
+
                     
 
-                    <div class="col-md-9" id="blog-listing-medium">
+                    <div class="col-md-9" id="blog-post">
 
+                        <p class="text-muted text-uppercase mb-small text-right">By <a href="#">fery</a> | December 10, 2018</p>
+
+                        <div id="post-content">
+                          
+
+<h2 id="dropbox-hanya-support-ext4">Dropbox hanya support ext4</h2>
+
+<p>Hal yang cukup menjengkelkan adalah ketika teknologi baru yang sudah terasa <em>stable</em> ternyata tidak didukung oleh teknologi lainnya. Hal ini terjadi ketika Dropbox yang sudah tidak lagi mendukung sistem berkas (e.g., btrfs) selain ext4 (untuk GNU/Linux) dan FAT32/NTFS (untuk Windows). Menjengkelkan kenapa ?, kita memiliki kapasitas eksternal hard drive hanya 4TB dan sudah sudah digunakan 2,1TB tiba-tiba suatu ketika tidak lagi bisa sinkron di komputer kita.</p>
+
+<p>Awalnya bingung apakah ada <em>service</em> yang tidak berjalan di server. Tapi sekilas berselancar di beberapa forum menemukan sebuah informasi dan sepertinya Dropbox juga sudah mengirimkan email pemberitahuan bahwa mereka hanya akan mendukung sistem berkas (e.g., btrfs) hanya sampai November 2018. Salah saya juga semua email yang dikirimkan oleh Dropbox saya <em>auto forward</em> ke tempat lain, qe3.</p>
+
+<p>Terus bagaimana ?. Ya salah satu ide yang muncul adalah saatnya migrasi dari Dropbox ke yang lain. Nextcloud menjadi salah satu yang akan saya lirik. Pertama berkas kita lebih privasi dan hanya kita saja yang bisa menggunakannya tanpa ada pihak ketiga. Kedua, kita bisa konfigurasi sendiri di server. Ketiga, Nextcloud bisa integrasi dengan <em>document processing on cloud</em> seperti google docs. Intinya data kita bisa lebih privasi lagi. Tentu saja kalau privasi menjadi salah satu isu di kita.</p>
+
+<p>Mungkin akan saya jelaskan kalau <em>mood</em> bagaimana migrasi dari Dropbox ke Nextcloud. Sudah banyak artikel sebenarnya tapi nggak ada salahnya kalau ada kesempatan saya jabarkan proses migrasinya.</p>
+
+                        </div>
                         
                         
-                        <section class="post">
-                            <div class="row">
-                                <div class="col-md-4">
-                                  <div class="image">
-                                      <a href="http://andreyferriyan.github.io/blog/2015/09/17/go-is-for-lovers/">
-                                          
-                                          <img src="http://andreyferriyan.github.io/img/banners/banner-2.jpg" class="img-responsive" alt="">
-                                          
-                                      </a>
-                                  </div>
-                                </div>
-                                <div class="col-md-8">
-                                    <h2><a href="http://andreyferriyan.github.io/blog/2015/09/17/go-is-for-lovers/">Go is for lovers</a></h2>
-                                    <div class="clearfix">
-                                        <p class="author-category">
-                                          
-                                          
-                                          
-                                          in <a href="http://andreyferriyan.github.iocategories/programming">programming</a>
-                                          
-                                          
-
-                                        </p>
-                                        <p class="date-comments">
-                                            <a href="http://andreyferriyan.github.io/blog/2015/09/17/go-is-for-lovers/"><i class="fa fa-calendar-o"></i> September 17, 2015</a>
-                                        </p>
-                                    </div>
-                                    <p class="intro">Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
-This document is a brief primer on using go templates.</p>
-                                    <p class="read-more"><a href="http://andreyferriyan.github.io/blog/2015/09/17/go-is-for-lovers/" class="btn btn-template-main">Continue reading</a>
-                                    </p>
-                                </div>
-                            </div>
-                        </section>
+                        <div id="comments">
+                            <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "qudorijibrayn" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+                        </div>
                         
 
-                        <ul class="pager">
-                            
-                            <li class="previous disabled"><a href="#">&larr; Newer</a></li>
-                            
-
-                            
-                            <li class="next disabled"><a href="#">Older &rarr;</a></li>
-                            
-                        </ul>
                     </div>
                     
 
@@ -315,6 +312,7 @@ This document is a brief primer on using go templates.</p>
 
                 </div>
                 
+
             </div>
             
         </div>
