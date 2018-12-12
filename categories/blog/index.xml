@@ -6,10 +6,20 @@
     <description>Recent content in Blog on Catatan Riset</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Dec 2018 11:54:47 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 12 Dec 2018 10:50:36 +0900</lastBuildDate>
     
 	<atom:link href="http://andreyferriyan.github.io/categories/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Data Visualisasi</title>
+      <link>http://andreyferriyan.github.io/blog/2018/12/12/data-visualisasi/</link>
+      <pubDate>Wed, 12 Dec 2018 10:50:36 +0900</pubDate>
+      
+      <guid>http://andreyferriyan.github.io/blog/2018/12/12/data-visualisasi/</guid>
+      <description>Data visualisasi adalah hal yang sangat penting Buat mereka yang berkecimpung di dunia data scientist, data visualisasi adalah hal yang sangat penting. Data visualisasi (atau visualisasi data ?, halah terserah) merupakan cara yang digunakan oleh orang untuk mengekspresikan hasil temuan atau mungkin saja hal menarik yang intinya menggambarkan kemajuan dari hasil temuan atau apa yang telah ditemukan.
+Saya yang hanya memiliki background backend dan biasa meringkuk di ruang server dengan jaket tebal merupakan hal yang baru.</description>
+    </item>
     
     <item>
       <title>Mengistirahatkan Mastodon</title>
