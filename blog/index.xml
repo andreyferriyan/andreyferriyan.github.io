@@ -6,10 +6,20 @@
     <description>Recent content in Blogs on Catatan Riset</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Dec 2018 10:50:36 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 12 Dec 2018 21:44:55 +0900</lastBuildDate>
     
 	<atom:link href="http://andreyferriyan.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Visualisasi Dengan Plotly</title>
+      <link>http://andreyferriyan.github.io/blog/2018/12/12/visualisasi-dengan-plotly/</link>
+      <pubDate>Wed, 12 Dec 2018 21:44:55 +0900</pubDate>
+      
+      <guid>http://andreyferriyan.github.io/blog/2018/12/12/visualisasi-dengan-plotly/</guid>
+      <description>Ternyata plotly lebih asyik Okay, setelah tinkering dengan bokeh cukup sebentar (sekitar hampir 1 pekan), saya memutuskan untuk mencoba menggunakan plotly. Pertama jelas plotly ternyata bisa digunakan secara offline, kedua learning curve dari plotly ternyata lebih rendah dibandingkan dengan bokeh. Okay keduanya lumayan asyik juga tapi ada satu hal di bokeh yang saya coba cukup lama nggak selesai-selesai tapi dengan menggunakan plotly bisa selesai.
+Sementara jatuh hati sama plotly. Jadi untuk sementara ke depan mau coba menggunakan plotly dulu.</description>
+    </item>
     
     <item>
       <title>Data Visualisasi</title>

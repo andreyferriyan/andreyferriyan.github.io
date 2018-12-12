@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://andreyferriyan.github.io/blog/2018/12/12/visualisasi-dengan-plotly/</loc>
+    <lastmod>2018-12-12T21:44:55+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://andreyferriyan.github.io/blog/2018/12/12/data-visualisasi/</loc>
     <lastmod>2018-12-12T10:50:36+09:00</lastmod>
   </url>
@@ -54,25 +59,25 @@
   
   <url>
     <loc>http://andreyferriyan.github.io/categories/blog/</loc>
-    <lastmod>2018-12-12T10:50:36+09:00</lastmod>
+    <lastmod>2018-12-12T21:44:55+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://andreyferriyan.github.io/blog/</loc>
-    <lastmod>2018-12-12T10:50:36+09:00</lastmod>
+    <lastmod>2018-12-12T21:44:55+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://andreyferriyan.github.io/</loc>
-    <lastmod>2018-12-12T10:50:36+09:00</lastmod>
+    <lastmod>2018-12-12T21:44:55+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://andreyferriyan.github.io/categories/</loc>
-    <lastmod>2018-12-12T10:50:36+09:00</lastmod>
+    <lastmod>2018-12-12T21:44:55+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -103,14 +108,14 @@
   </url>
   
   <url>
-    <loc>http://andreyferriyan.github.io/tags/programming/</loc>
-    <lastmod>2018-12-09T17:12:20+09:00</lastmod>
+    <loc>http://andreyferriyan.github.io/categories/programming/</loc>
+    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://andreyferriyan.github.io/categories/programming/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
+    <loc>http://andreyferriyan.github.io/tags/programming/</loc>
+    <lastmod>2018-12-09T17:12:20+09:00</lastmod>
     <priority>0</priority>
   </url>
   
