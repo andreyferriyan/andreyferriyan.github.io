@@ -2,6 +2,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://andreyferriyan.github.io/tags/mastodon/</loc>
+    <lastmod>2018-12-11T13:18:22+09:00</lastmod>
+  </url><url>
+    <loc>https://andreyferriyan.github.io/posts/menghentikan-layanan-mastodon/</loc>
+    <lastmod>2018-12-11T13:18:22+09:00</lastmod>
+  </url><url>
+    <loc>https://andreyferriyan.github.io/tags/mstdn/</loc>
+    <lastmod>2018-12-11T13:18:22+09:00</lastmod>
+  </url><url>
+    <loc>https://andreyferriyan.github.io/</loc>
+    <lastmod>2018-12-11T13:18:22+09:00</lastmod>
+  </url><url>
+    <loc>https://andreyferriyan.github.io/posts/</loc>
+    <lastmod>2018-12-11T13:18:22+09:00</lastmod>
+  </url><url>
+    <loc>https://andreyferriyan.github.io/tags/</loc>
+    <lastmod>2018-12-11T13:18:22+09:00</lastmod>
+  </url><url>
+    <loc>https://andreyferriyan.github.io/posts/dropbox-hanya-support-btrfs/</loc>
+    <lastmod>2018-12-10T13:15:14+09:00</lastmod>
+  </url><url>
+    <loc>https://andreyferriyan.github.io/tags/linux/</loc>
+    <lastmod>2018-12-10T13:15:14+09:00</lastmod>
+  </url><url>
+    <loc>https://andreyferriyan.github.io/tags/jupyter/</loc>
+    <lastmod>2018-12-09T13:02:57+09:00</lastmod>
+  </url><url>
+    <loc>https://andreyferriyan.github.io/posts/migrasi-jupyter-classic-ke-jupyterlab/</loc>
+    <lastmod>2018-12-09T13:02:57+09:00</lastmod>
+  </url><url>
+    <loc>https://andreyferriyan.github.io/tags/python/</loc>
+    <lastmod>2018-12-09T13:02:57+09:00</lastmod>
+  </url><url>
+    <loc>https://andreyferriyan.github.io/tags/blog/</loc>
+    <lastmod>2018-11-18T10:59:05+09:00</lastmod>
+  </url><url>
+    <loc>https://andreyferriyan.github.io/posts/blog-dengan-hugo/</loc>
+    <lastmod>2018-11-18T10:59:05+09:00</lastmod>
+  </url><url>
+    <loc>https://andreyferriyan.github.io/posts/sticker-wa-bnpms/</loc>
+    <lastmod>2018-11-17T10:28:11+09:00</lastmod>
+  </url><url>
     <loc>https://andreyferriyan.github.io/about/</loc>
     <lastmod>2016-02-26T13:35:19+09:00</lastmod>
   </url><url>
@@ -9,10 +51,6 @@
   </url><url>
     <loc>https://andreyferriyan.github.io/categories/</loc>
   </url><url>
-    <loc>https://andreyferriyan.github.io/</loc>
-  </url><url>
     <loc>https://andreyferriyan.github.io/series/</loc>
-  </url><url>
-    <loc>https://andreyferriyan.github.io/tags/</loc>
   </url>
 </urlset>
