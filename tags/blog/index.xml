@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blog on My Research Notes</title>
+    <link>https://andreyferriyan.github.io/tags/blog/</link>
+    <description>Recent content in blog on My Research Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 18 Nov 2018 10:59:05 +0900</lastBuildDate><atom:link href="https://andreyferriyan.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Menulis Blog dengan Hugo</title>
+      <link>https://andreyferriyan.github.io/posts/blog-dengan-hugo/</link>
+      <pubDate>Sun, 18 Nov 2018 10:59:05 +0900</pubDate>
+      
+      <guid>https://andreyferriyan.github.io/posts/blog-dengan-hugo/</guid>
+      <description>Situs ini dibangun dengan hugo, merupakan salah satu aplikasi situs statik yang cukup populer. Situs ini awalnya hanya digunakan untuk menyimpan aplikasi stiker WhatsApp bnpms-wastickers-v1.apk. Beberapa waktu kemudian setelah menyimpan berkas binari ke dalam github.io mendapat peringatan agar menyimpannya pada github dalam bentuk versi release. Setiap kita generate berkas baru untuk blog atau melakukan pengubahan maka email peringatan selalu muncul dan ini cukup mengganggu. Mengikuti aturan akan lebih mudah sepertinya jadi saya pindahkan berkas aplikasi sticker WhatsApp BNPMS ke github.</description>
+    </item>
+    
+  </channel>
+</rss>
