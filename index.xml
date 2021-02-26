@@ -5,56 +5,6 @@
     <link>https://andreyferriyan.github.io/</link>
     <description>Recent content on My Research Notes</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Tue, 11 Dec 2018 13:18:22 +0900</lastBuildDate><atom:link href="https://andreyferriyan.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Menghentikan Layanan Mastodon</title>
-      <link>https://andreyferriyan.github.io/posts/menghentikan-layanan-mastodon/</link>
-      <pubDate>Tue, 11 Dec 2018 13:18:22 +0900</pubDate>
-      
-      <guid>https://andreyferriyan.github.io/posts/menghentikan-layanan-mastodon/</guid>
-      <description>Beberapa waktu lalu jagat desentralisasi dihebohkan dengan migrasi besar-besaran dari Twitter atau Facebook akibat adanya pelanggaran privasi. Hal ini memaksa sebagian mereka yang memiliki kemampuan coding dan visi (?) untuk mengembangkan media sosial baru yang berbasis desentralisasi. Salah satu yang dikenal adalah Mastodon.
-Mastodon sebenarnya sudah cukup lama ada (jangan tanya saya nggak hafal berapa lama). Dan platform ini cukup besar penggunanya di Jepang. Namun ada hal yang mungkin perlu diketahui bahwa platform desentralisasi media sosial semacam mastodon ini tidak hanya dimiliki oleh mastodon.</description>
-    </item>
-    
-    <item>
-      <title>Dropbox Tidak Mendukung BTRFS</title>
-      <link>https://andreyferriyan.github.io/posts/dropbox-hanya-support-btrfs/</link>
-      <pubDate>Mon, 10 Dec 2018 13:15:14 +0900</pubDate>
-      
-      <guid>https://andreyferriyan.github.io/posts/dropbox-hanya-support-btrfs/</guid>
-      <description>Hal yang cukup menjengkelkan adalah ketika teknologi baru yang sudah terasa stable ternyata tidak didukung oleh teknologi lainnya. Hal ini terjadi ketika Dropbox yang sudah tidak lagi mendukung sistem berkas (e.g., btrfs) selain ext4 (untuk GNU/Linux) dan FAT32/NTFS (untuk Windows). Menjengkelkan kenapa ?, kita memiliki kapasitas eksternal hard drive hanya 4TB dan sudah sudah digunakan 2,1TB tiba-tiba suatu ketika tidak lagi bisa sinkron di komputer kita.
-Awalnya bingung apakah ada service yang tidak berjalan di server.</description>
-    </item>
-    
-    <item>
-      <title>Migrasi Jupyter Classic ke Jupyterlab</title>
-      <link>https://andreyferriyan.github.io/posts/migrasi-jupyter-classic-ke-jupyterlab/</link>
-      <pubDate>Sun, 09 Dec 2018 13:02:57 +0900</pubDate>
-      
-      <guid>https://andreyferriyan.github.io/posts/migrasi-jupyter-classic-ke-jupyterlab/</guid>
-      <description>Sebagaimana kita ketahui bersama Jupyter adalah salah satu IDE bagi para programmer Python. Bagi aktivis data scientist, Jupyter juga jadi salah satu andalan yang digunakan untuk memudahkan melakukan pemodelan machine learning tentu saja dengan berbahasa Python.
-Setahu saya, Jupyter termasuk language agnostic, artinya tidak cuma Python tapi bahasa pemrograman lain seperti Julia juga bisa digunakan. Kelebihan dari Jupyter yang membuat saya nyaman dalam menggunakannya adalah kita bisa menyimpan hasil pemodelan itu di memory.</description>
-    </item>
-    
-    <item>
-      <title>Menulis Blog dengan Hugo</title>
-      <link>https://andreyferriyan.github.io/posts/blog-dengan-hugo/</link>
-      <pubDate>Sun, 18 Nov 2018 10:59:05 +0900</pubDate>
-      
-      <guid>https://andreyferriyan.github.io/posts/blog-dengan-hugo/</guid>
-      <description>Situs ini dibangun dengan hugo, merupakan salah satu aplikasi situs statik yang cukup populer. Situs ini awalnya hanya digunakan untuk menyimpan aplikasi stiker WhatsApp bnpms-wastickers-v1.apk. Beberapa waktu kemudian setelah menyimpan berkas binari ke dalam github.io mendapat peringatan agar menyimpannya pada github dalam bentuk versi release. Setiap kita generate berkas baru untuk blog atau melakukan pengubahan maka email peringatan selalu muncul dan ini cukup mengganggu. Mengikuti aturan akan lebih mudah sepertinya jadi saya pindahkan berkas aplikasi sticker WhatsApp BNPMS ke github.</description>
-    </item>
-    
-    <item>
-      <title>Sticker WA Badan Nasional Pembinaan Media Sosial</title>
-      <link>https://andreyferriyan.github.io/posts/sticker-wa-bnpms/</link>
-      <pubDate>Sat, 17 Nov 2018 10:28:11 +0900</pubDate>
-      
-      <guid>https://andreyferriyan.github.io/posts/sticker-wa-bnpms/</guid>
-      <description>Berikut adalah informasi pemindahan link dari WhatsApp sticker untuk Badan Nasional Pembinaan Media Sosial. Stickers ini dipindah dari https://andreyferriyan.github.io/bnpms-wastickers-v1.apk dikarenakan pesan peringatan dari github untuk memindahkan berkas binari apapun ke dalam bentuk releases atau menaruhnya di git repositori. Untuk selanjutnya bisa cek link berikut untuk mendownload sticker BNPMS terbaru https://github.com/andreyferriyan
-NB: Sticker WA ini bukan buatan saya. Saya hanya membantu mengupload ke situs agar lebih mudah untuk diakses dan diunduh.</description>
-    </item>
-    
+    <language>en</language><atom:link href="https://andreyferriyan.github.io/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
