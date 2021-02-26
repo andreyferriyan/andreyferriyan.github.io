@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+    
+      <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests; block-all-mixed-content; default-src 'self'; child-src 'self'; font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net/; form-action 'self'; frame-src 'self'; img-src 'self'; object-src 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/ https://cdn.jsdelivr.net/; script-src 'self' 'unsafe-inline' https://www.google-analytics.com; prefetch-src 'self';">
+    
+
+    <meta name="author" content="Andrey Ferriyan">
+    <meta name="description" content="Menghentikan salah satu platform desentralisasi mstdn.id">
+    <meta name="keywords" content="research,devops,network,security">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Menghentikan Layanan Mastodon"/>
+<meta name="twitter:description" content="Menghentikan salah satu platform desentralisasi mstdn.id"/>
+
+    <meta property="og:title" content="Menghentikan Layanan Mastodon" />
+<meta property="og:description" content="Menghentikan salah satu platform desentralisasi mstdn.id" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://andreyferriyan.github.io/posts/menghentikan-layanan-mastodon/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2018-12-11T13:18:22&#43;09:00" />
+<meta property="article:modified_time" content="2018-12-11T13:18:22&#43;09:00" />
+
+
+
+    <title>
+  Menghentikan Layanan Mastodon · My Research Notes
+</title>
+
+    
+      <link rel="canonical" href="https://andreyferriyan.github.io/posts/menghentikan-layanan-mastodon/">
+    
+
+    
+    
+    <link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.1.7" as="font" type="font/woff2" integrity="sha256-hEIt6X6xzye8ubyk8/uxjz68cRZHsJxoKS9fQ8idUGQ=" crossorigin>
+
+    
+      
+      
+      <link rel="stylesheet" href="/css/coder.min.6ff29d374341f7709e14f2f718cbc7be5e3c653ef0427bc7887c8585297257c0.css" integrity="sha256-b/KdN0NB93CeFPL3GMvHvl48ZT7wQnvHiHyFhSlyV8A=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="/css/coder-dark.min.89c82b6022b96f77aeb521b240daec4f87ea029d84d1c78b8acd0735b91b3c92.css" integrity="sha256-icgrYCK5b3eutSGyQNrsT4fqAp2E0ceLis0HNbkbPJI=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+    
+      <script defer src="https://twemoji.maxcdn.com/v/13.0.1/twemoji.min.js"
+        integrity="sha384-5f4X0lBluNY/Ib4VhGx0Pf6iDCF99VGXJIyYy7dDLY5QlEd7Ap0hICSSZA1XYbc4" crossorigin="anonymous"></script>
+    
+
+    <meta name="generator" content="Hugo 0.82.0-DEV" />
+  </head>
+
+  
+  
+    
+  
+  <body class="colorscheme-auto"
+        onload=" twemoji.parse(document.body); "
+  >
+    
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      My Research Notes
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/posts/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/posts/">Posts</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+  <section class="sidebar">
+  <div class="about">
+
+      
+        <div class="avatar"><img src="/images/andreyavatar.jpg" alt="avatar"></div>
+      
+    
+    
+    <h2>Andrey Ferriyan</h2>
+	
+      
+            <a href="https://github.com/andreyferriyan/" aria-label="Github"   >
+              <i class="fa fa-github" aria-hidden="true"></i>
+            </a>
+	  
+            <a href="https://gitlab.com/andreyferriyan/" aria-label="Gitlab"   >
+              <i class="fa fa-gitlab" aria-hidden="true"></i>
+            </a>
+	  
+            <a href="https://twitter.com/andreyferriyan/" aria-label="Twitter"   >
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+	  
+            <a href="https://andreyferriyan.medium.com/" aria-label="Medium"   >
+              <i class="fa fa-medium" aria-hidden="true"></i>
+            </a>
+	  
+	
+</div>
+  </section>
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="https://andreyferriyan.github.io/posts/menghentikan-layanan-mastodon/">
+              Menghentikan Layanan Mastodon
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime='2018-12-11T13:18:22&#43;09:00'>
+                December 11, 2018
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              2-minute read
+            </span>
+          </div>
+          
+          
+          <div class="tags">
+  <i class="fa fa-tag" aria-hidden="true"></i>
+    <a href="/tags/mstdn/">mstdn</a>
+      <span class="separator">•</span>
+    <a href="/tags/mastodon/">mastodon</a></div>
+
+        </div>
+      </header>
+
+      <div>
+        
+        <p>Beberapa waktu lalu jagat desentralisasi dihebohkan dengan migrasi besar-besaran dari Twitter atau Facebook akibat adanya pelanggaran privasi. Hal ini memaksa sebagian mereka yang memiliki kemampuan coding dan visi (?) untuk mengembangkan media sosial baru yang berbasis desentralisasi. Salah satu yang dikenal adalah Mastodon.</p>
+<p>Mastodon sebenarnya sudah cukup lama ada (jangan tanya saya nggak hafal berapa lama). Dan platform ini cukup besar penggunanya di Jepang. Namun ada hal yang mungkin perlu diketahui bahwa platform desentralisasi media sosial semacam mastodon ini tidak hanya dimiliki oleh mastodon. Ada juga GNU Social, kemudian HubZilla dan yang cukup terkenal juga adalah pleroma.</p>
+<p>Mereka yang suka dengan platform Twitter bisa menggunakan Mastodon sebagai alternatif penggantinya sementara mereka yang terbiasa menggunakan Facebook bisa pindah ke HubZilla. Ada hal yang menarik sebenarnya bahwa komunitas ini menjadi cukup besar dan memiliki “pasar” tersendiri.</p>
+<p>Saya kemudian tertarik sempat membangun medsos.web.id berbasis mastodon. Lumayan banyak yang join (nggak sampai 100 mungkin, hahaha). Hasil diskusi dengan pengguna medsos.web.id meminta kita mengganti domain menjadi yang lain. Maka dipilihlah mstdn.id. Sebenarnya, membangun, menyalakan, dan menjalankan dari platform apapun itu hal yang relatif mudah akan tetapi ada PR tersendiri yang perlu dipikirkan. Pertama adalah sustainability, saya pernah sampaikan ini juga di warganet medsos.web.id atau mstdn.id. Kedua adalah community yang bergabung di dalamnya.</p>
+<p>Dua hal ini adalah yang krusial dan sangat penting jika ingin platform desentralisasi kita bisa terus ada. Saya sebagai pemilik mstdn.id dengan “terpaksa” harus mengistirahatkan platform ini karena seperti yang saya bilang dua hal yang saya sebutkan diatas belum ada. Jika dua hal ini tidak bisa dijaga sepertinya tinggal menunggu waktu untuk kembali ke platform lama. Jika komunitas sudah ada dan yang mengurus juga ada dan bukan key person tapi team maka insya Alloh saya yakin bisa berjalan dengan baik.</p>
+<p>Demikian permintaan maaf saya sampaikan kepada warga mstdn.id yang mungkin memiliki atau pernah bergabung di mstdn.id. Pertanyaan yang muncul adalah apakah ke depan akan saya hidupkan lagi ?. Entahlah, mungkin setelah saya selesai dari urusan yang lebih penting… mungkin bisa saya lanjutkan. Atau mungkin saya malah pindah ke platform lain. Saya sudah sampaikan ke beberapa kawan moderator kalau ada yang tertarik dengan domain mstdn.id ini maka dengan senang hati akan saya pindahkan ke mereka yang tertarik.</p>
+<p>Jangan khawatir data yang sudah ada tidak akan digunakan untuk kepentingan pribadi, kelompok, atau apapun. Saya akan hapus di akhir tahun 2018 ini.</p>
+<p>Admin mstdn.id,<br>
+@andrey</p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "yourdiscussshortname" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+      
+      
+      
+        
+      
+    </section>
+  </footer>
+
+
+    </main>
+
+    
+      
+        
+        <script src="/js/dark-mode.min.aee9c8a464eb7b3534c7110f7c5e169e7039e2fd92710e0626d451d6725af137.js" integrity="sha256-runIpGTrezU0xxEPfF4WnnA54v2ScQ4GJtRR1nJa8Tc="></script>
+      
+    
+
+    
+
+    
+
+    <script>
+(function(f, a, t, h, o, m){
+	a[h]=a[h]||function(){
+		(a[h].q=a[h].q||[]).push(arguments)
+	};
+	o=f.createElement('script'),
+	m=f.getElementsByTagName('script')[0];
+	o.async=1; o.src=t; o.id='fathom-script';
+	m.parentNode.insertBefore(o,m)
+})(document, window, '//analytics.example.com/tracker.js', 'fathom');
+fathom('set', 'siteId', 'ABCDE');
+fathom('trackPageview');
+</script>
+
+
+    <script async defer data-domain="example.com" src="https://analytics.example.com/js/plausible.js"></script>
+
+
+    <script data-goatcounter="https://code.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+
+
+    
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js'
+        data-cf-beacon='{"token": "token"}'></script>
+
+
+
+    <script type="application/javascript">
+  var _paq = window._paq = window._paq || [];
+   
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://analytics.example.com/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', 'ABCDE']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=gid"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'gid');
+</script>
+
+  </body>
+
+</html>

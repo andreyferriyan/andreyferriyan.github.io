@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>linux on My Research Notes</title>
+    <link>https://andreyferriyan.github.io/tags/linux/</link>
+    <description>Recent content in linux on My Research Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 10 Dec 2018 13:15:14 +0900</lastBuildDate><atom:link href="https://andreyferriyan.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dropbox Tidak Mendukung BTRFS</title>
+      <link>https://andreyferriyan.github.io/posts/dropbox-hanya-support-btrfs/</link>
+      <pubDate>Mon, 10 Dec 2018 13:15:14 +0900</pubDate>
+      
+      <guid>https://andreyferriyan.github.io/posts/dropbox-hanya-support-btrfs/</guid>
+      <description>Hal yang cukup menjengkelkan adalah ketika teknologi baru yang sudah terasa stable ternyata tidak didukung oleh teknologi lainnya. Hal ini terjadi ketika Dropbox yang sudah tidak lagi mendukung sistem berkas (e.g., btrfs) selain ext4 (untuk GNU/Linux) dan FAT32/NTFS (untuk Windows). Menjengkelkan kenapa ?, kita memiliki kapasitas eksternal hard drive hanya 4TB dan sudah sudah digunakan 2,1TB tiba-tiba suatu ketika tidak lagi bisa sinkron di komputer kita.
+Awalnya bingung apakah ada service yang tidak berjalan di server.</description>
+    </item>
+    
+  </channel>
+</rss>
