@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>zoom on My Research Notes</title>
+    <link>https://andreyferriyan.github.io/tags/zoom/</link>
+    <description>Recent content in zoom on My Research Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 07 Mar 2021 10:07:45 +0900</lastBuildDate><atom:link href="https://andreyferriyan.github.io/tags/zoom/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OBS Tidak Bisa Merekam Zoom</title>
+      <link>https://andreyferriyan.github.io/posts/obs-tidak-bisa-merekam-zoom/</link>
+      <pubDate>Sun, 07 Mar 2021 10:07:45 +0900</pubDate>
+      
+      <guid>https://andreyferriyan.github.io/posts/obs-tidak-bisa-merekam-zoom/</guid>
+      <description>Idealnya merekam Zoom akan lebih baik menggunakan fasilitas rekam yang menjadi bawaan dari Zoom itu sendiri. OBS dibutuhkan tatkala kita sebagai yang hadir tidak mendapatkan ijin untuk merekam dan hanya Host yang bisa melakukannya. Kasus ini terjadi pada Zoom versi terbaru. OBS menggunakan Window Capture ketika diaktifkan hanya akan menghasilkan layar yang blank berwarna putih atau warna hitam.
+Ada dua cara yang bisa dilakukan, pertama kita ganti Window Capture menjadi Display Capture atau keseluruhan layar.</description>
+    </item>
+    
+  </channel>
+</rss>

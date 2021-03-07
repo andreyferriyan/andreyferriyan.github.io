@@ -2,6 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://andreyferriyan.github.io/</loc>
+    <lastmod>2021-03-07T10:07:45+09:00</lastmod>
+  </url><url>
+    <loc>https://andreyferriyan.github.io/tags/obs/</loc>
+    <lastmod>2021-03-07T10:07:45+09:00</lastmod>
+  </url><url>
+    <loc>https://andreyferriyan.github.io/posts/obs-tidak-bisa-merekam-zoom/</loc>
+    <lastmod>2021-03-07T10:07:45+09:00</lastmod>
+  </url><url>
+    <loc>https://andreyferriyan.github.io/posts/</loc>
+    <lastmod>2021-03-07T10:07:45+09:00</lastmod>
+  </url><url>
+    <loc>https://andreyferriyan.github.io/tags/</loc>
+    <lastmod>2021-03-07T10:07:45+09:00</lastmod>
+  </url><url>
+    <loc>https://andreyferriyan.github.io/tags/video/</loc>
+    <lastmod>2021-03-07T10:07:45+09:00</lastmod>
+  </url><url>
+    <loc>https://andreyferriyan.github.io/tags/zoom/</loc>
+    <lastmod>2021-03-07T10:07:45+09:00</lastmod>
+  </url><url>
+    <loc>https://andreyferriyan.github.io/categories/</loc>
+    <lastmod>2021-03-06T19:24:38+09:00</lastmod>
+  </url><url>
+    <loc>https://andreyferriyan.github.io/categories/obs/</loc>
+    <lastmod>2021-03-06T19:24:38+09:00</lastmod>
+  </url><url>
+    <loc>https://andreyferriyan.github.io/posts/obs-tidak-bisa-rekam-zoom/</loc>
+    <lastmod>2021-03-06T19:24:38+09:00</lastmod>
+  </url><url>
+    <loc>https://andreyferriyan.github.io/categories/video/</loc>
+    <lastmod>2021-03-06T19:24:38+09:00</lastmod>
+  </url><url>
+    <loc>https://andreyferriyan.github.io/categories/zoom/</loc>
+    <lastmod>2021-03-06T19:24:38+09:00</lastmod>
+  </url><url>
     <loc>https://andreyferriyan.github.io/tags/mastodon/</loc>
     <lastmod>2018-12-11T13:18:22+09:00</lastmod>
   </url><url>
@@ -9,15 +45,6 @@
     <lastmod>2018-12-11T13:18:22+09:00</lastmod>
   </url><url>
     <loc>https://andreyferriyan.github.io/tags/mstdn/</loc>
-    <lastmod>2018-12-11T13:18:22+09:00</lastmod>
-  </url><url>
-    <loc>https://andreyferriyan.github.io/</loc>
-    <lastmod>2018-12-11T13:18:22+09:00</lastmod>
-  </url><url>
-    <loc>https://andreyferriyan.github.io/posts/</loc>
-    <lastmod>2018-12-11T13:18:22+09:00</lastmod>
-  </url><url>
-    <loc>https://andreyferriyan.github.io/tags/</loc>
     <lastmod>2018-12-11T13:18:22+09:00</lastmod>
   </url><url>
     <loc>https://andreyferriyan.github.io/posts/dropbox-hanya-support-btrfs/</loc>
@@ -48,8 +75,6 @@
     <lastmod>2016-01-25T19:52:14+09:00</lastmod>
   </url><url>
     <loc>https://andreyferriyan.github.io/authors/</loc>
-  </url><url>
-    <loc>https://andreyferriyan.github.io/categories/</loc>
   </url><url>
     <loc>https://andreyferriyan.github.io/series/</loc>
   </url>

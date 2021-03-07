@@ -6,7 +6,26 @@
     <description>Recent content in Posts on My Research Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 11 Dec 2018 13:18:22 +0900</lastBuildDate><atom:link href="https://andreyferriyan.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Mar 2021 10:07:45 +0900</lastBuildDate><atom:link href="https://andreyferriyan.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OBS Tidak Bisa Merekam Zoom</title>
+      <link>https://andreyferriyan.github.io/posts/obs-tidak-bisa-merekam-zoom/</link>
+      <pubDate>Sun, 07 Mar 2021 10:07:45 +0900</pubDate>
+      
+      <guid>https://andreyferriyan.github.io/posts/obs-tidak-bisa-merekam-zoom/</guid>
+      <description>Idealnya merekam Zoom akan lebih baik menggunakan fasilitas rekam yang menjadi bawaan dari Zoom itu sendiri. OBS dibutuhkan tatkala kita sebagai yang hadir tidak mendapatkan ijin untuk merekam dan hanya Host yang bisa melakukannya. Kasus ini terjadi pada Zoom versi terbaru. OBS menggunakan Window Capture ketika diaktifkan hanya akan menghasilkan layar yang blank berwarna putih atau warna hitam.
+Ada dua cara yang bisa dilakukan, pertama kita ganti Window Capture menjadi Display Capture atau keseluruhan layar.</description>
+    </item>
+    
+    <item>
+      <title>OBS tidak bisa rekam zoom</title>
+      <link>https://andreyferriyan.github.io/posts/obs-tidak-bisa-rekam-zoom/</link>
+      <pubDate>Sat, 06 Mar 2021 19:24:38 +0900</pubDate>
+      
+      <guid>https://andreyferriyan.github.io/posts/obs-tidak-bisa-rekam-zoom/</guid>
+      <description>Kejadian ini bermula ketika saya akan merekam zoom melalui OBS. Tentu saja merekam yang paling direkomendasikan adalah langsung via zoom. Akan tetapi hal ini tidak bisa dilakukan ketika kita tidak diberikan ijin oleh Host untuk merekam. Cara lain sebenarnya bisa juga merekam dengan menggunakan aplikasi bawaan Windows 10 (Tombol Windows + g).</description>
+    </item>
+    
     <item>
       <title>Menghentikan Layanan Mastodon</title>
       <link>https://andreyferriyan.github.io/posts/menghentikan-layanan-mastodon/</link>
